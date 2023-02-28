@@ -7,26 +7,36 @@
     <title>18CSE301J_RA2011030010137</title>
     <style>
         body{
+            background-image: radial-gradient(circle, rgb(255,0,0,0.5), yellow, rgb(0,255,0,0.5));
+
         }
         #data{
-            width:60vw;
-            height:100vh;
+            width:52vw;
+            height:200vh;
         }
-        div{
+        .cc{
+          display:flex;
+          flex-direction:column;
             text-align:center;
+          align-item:center;
         }
         iframe{
         display:flex;
         justify-content:center;
+          margin:0 auto;
         }
         </style>
 </head>
 <body>
-    <div>
+  <div>
+    <div class="cc">
     <h1>18CSE301J Information Visualization</h1>
     <h2>S.Surya Prakash</h2>
     <h3>RA2011030010137</h3>
     </div>
+  <div class="cc">
     <iframe id="data" src="https://public.tableau.com/views/18CSE301J_RA2011030010137/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true" height=100vh>18CSE301J_RA2011030010137</iframe>
+  </div>
+  </div>
 </body>
 </html>
