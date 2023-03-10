@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>18CSE301J/RA2011030010137</title>
-   <style>
-       *{
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
     margin: 0;
+}
+body{
+    background-color: rgb(64, 64, 188);
 }
 h1{
     margin:20px;
@@ -63,7 +67,29 @@ figcaption{
     margin: 0 auto;
     padding-top: 20px;
 }
-       </style>
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.col-12{
+    border: solid;
+    border-radius: 10px ;
+}
+.dri{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 25 auto;
+}
+    </style>
 </head>
 <body>
     <h1><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M160 80c0-26.5 21.5-48 48-48h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H208c-26.5 0-48-21.5-48-48V80zM0 272c0-26.5 21.5-48 48-48H80c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V272zM368 96h32c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48H368c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48z"/></svg>Information Visualization</h1>
@@ -79,9 +105,27 @@ figcaption{
         </div>
         <p class="desc">Data visualization is a powerful tool that can help us gain insights from complex data sets. By using visual representations such as charts, graphs, and maps, we can explore patterns and trends that might be difficult to discern from raw data alone.</p>
         <figure>
+            <div class="dri">
+                <figure>
+                <iframe src="https://drive.google.com/file/d/1txZnatyDjOtL_fo6jpyD9vJOY4tIOg6K/preview"  width="640" height="780" allow="autoplay frameborder="0"></iframe>
+                <figcaption>Overleaf(Assignment 1)</figcaption>
+            </figure>
+            </div>
         <img src="Dashboard.png" alt="image of dataset">
         <figcaption>Tableau Public</figcaption>
         </figure>
+        <div class="row">
+            <div class="col">
+                <!-- <h3>ASSIGNMENT  4</h3>
+                <div><h3>PLOTLY PYTHON</h3></div> -->
+            </div>
+            <div class="col-12 text-center align-items-center justify-content-center">
+                <figure>
+              <iframe class="mt-2" src="https://plotly.com/~Surya.24/3/.embed" width="1000" height="600" allow="autoplay"></iframe>
+              <figcaption>Plotly PYTHON</figcaption>
+            </figure>
+          </div>
+          </div>
         <script>
             document.body.style.backgroundColor = "#e049e8";
         </script>
